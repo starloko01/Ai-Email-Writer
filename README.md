@@ -42,3 +42,28 @@ The project includes:
 
 ## 🏗️ Folder Structure
 
+ai-email-writer/
+┣ 📁 backend/ → Spring Boot API
+┣ 📁 frontend/ → React web app
+┗ 📁 chrome-extension/ → Gmail integration
+
+
+---
+
+## ⚙️ Setup (Local)
+
+### Backend
+```bash
+cd backend
+mvn spring-boot:run
+
+
+cd frontend
+npm install
+npm start
+
+Extension
+  - Go to chrome://extensions/
+  - Enable Developer Mode
+  - Click Load unpacked
+  - Select the chrome-extension folder
