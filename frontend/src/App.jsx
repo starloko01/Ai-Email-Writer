@@ -13,7 +13,7 @@ function App() {
   const handleSubmit = async () => {
     setLoading(true);
     try{
-        const response = await axios.post("https://ai-email-writer-4j6d.onrender.com/api/email/generate", {emailContent, tone})
+        const response = await axios.post(`${import.meta.env.VITE_BACKEND_URL}/api/email/generate`, {emailContent, tone})
         setGeneratedReply(typeof response.data === 'string' ? response.data : JSON.stringify(response.data))
     } catch(error){
 
