@@ -14,17 +14,6 @@ The project includes:
 - 💻 **React Web App:** Standalone interface to try and preview the feature  
 - ⚙️ **Spring Boot Backend:** API service that generates email responses using AI models  
 
----
-
-## 🖼️ Demo
-
-🔗 **Live Web App:** [https://ai-email-writer.vercel.app](https://ai-email-writer.vercel.app)  
-⚙️ **API Endpoint:** [https://email-writer-backend.onrender.com/api/generate-email](https://email-writer-backend.onrender.com/api/generate-email)
-
-**Demo Steps:**
-1. Go to Gmail (with the extension loaded)
-2. Click **Reply** or **Compose**
-3. Hit **“AI Reply”** to instantly generate an email response
 
 ---
 
